@@ -1,0 +1,193 @@
+/* Baseline style for the site */
+
+p, body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13pt;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:normal;
+  color: #0D3347;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: #0D3347;
+}
+
+.homeimage {
+  max-height: 300px;
+  height: auto;
+  padding-left: 10px;
+}
+
+.topicon{
+  padding:15px;
+}
+
+.midimage{
+    max-width: 450px;
+    height: auto;
+    padding:15px;
+}
+
+.midimage2{
+    max-width: auto;
+    height: 400px;
+    padding:15px;
+}
+
+.container{
+  padding: 15px;
+}
+
+.col-sm{
+  padding-bottom: 10px;
+}
+
+.sectionbreak{
+  padding: 3%;
+}
+
+.portbutton{
+  margin-bottom: 5px;
+}
+
+#portgradient {
+  background-image: linear-gradient(#8FBEE3, #DAEEFB, #C3CDF2);
+}
+
+/* Fixed header & icon
+* --------------------------------------- */
+#header{
+  position:fixed;
+  height: 50px;
+  display:block;
+  width: 100%;
+  background: #333;
+  z-index:9;
+  text-align:center;
+  color: #f2f2f2;
+  padding: 20px 0 0 0;
+}
+
+#header{
+  top:0px;
+}
+
+.nav-link{
+  color: #0D3347;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+  text-align:center;
+}
+
+
+/* Defining each section background and styles
+* --------------------------------------- */
+#section0{
+  background: -webkit-gradient(linear, top left, bottom left, from(#8FBEE3), to(#DAEEFB));
+  background: -webkit-linear-gradient(#8FBEE3, #DAEEFB);
+  background: linear-gradient(#8FBEE3,#DAEEFB);
+}
+
+#section1{
+  background: -webkit-gradient(linear, top left, bottom left, from(#DAEEFB), to(#C3CDF2));
+  background: -webkit-linear-gradient(#DAEEFB, #C3CDF2);
+  background: linear-gradient(#DAEEFB,#C3CDF2);
+}
+
+#section2{
+  background: -webkit-gradient(linear, top left, bottom left, from(#C3CDF2), to(#B4E5FF));
+  background: -webkit-linear-gradient(#C3CDF2, #B4E5FF);
+  background: linear-gradient(#C3CDF2,#B4E5FF);
+}
+
+#section3{
+  background: -webkit-gradient(linear, top left, bottom left, from(#DAEEFB), to(#8FBEE3));
+  background: -webkit-linear-gradient(#DAEEFB, #8FBEE3);
+  background: linear-gradient(#DAEEFB,#8FBEE3);
+}
+
+#section4{
+  background: -webkit-gradient(linear, top left, bottom left, from(#8FBEE3), to(#DAEEFB));
+  background: -webkit-linear-gradient(#8FBEE3, #DAEEFB);
+  background: linear-gradient(#8FBEE3,#DAEEFB);
+}
+
+#section5{
+  background: -webkit-gradient(linear, top left, bottom left, from(#DAEEFB), to(#B4E5FF));
+  background: -webkit-linear-gradient(#DAEEFB, #B4E5FF);
+  background: linear-gradient(#DAEEFB,#B4E5FF);
+}
+
+/*Adding background for the slides
+* --------------------------------------- */
+#slide1{
+  background: -webkit-gradient(linear, top left, bottom left, from(#DAEEFB), to(#C3CDF2));
+  background: -webkit-linear-gradient(#DAEEFB, #C3CDF2);
+  background: linear-gradient(#DAEEFB,#C3CDF2);
+}
+#slide2{
+  background: -webkit-gradient(linear, top left, bottom left, from(#DAEEFB), to(#76c2bd));
+  background: -webkit-linear-gradient(#DAEEFB, #76c2bd);
+  background: linear-gradient(#DAEEFB,#76c2bd);
+}
+
+/* Bottom menu
+* --------------------------------------- */
+#infoMenu li a {
+  color: #fff;
+}
+
+/* Header menu
+* --------------------------------------- */
+#menu li {
+	display:inline-block;
+	margin: 10px;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+#menu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#menu li a{
+	text-decoration:none;
+	color: #000;
+}
+#menu li.active a:hover{
+	color: #000;
+}
+#menu li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li.active a{
+	color: #fff;
+}
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}

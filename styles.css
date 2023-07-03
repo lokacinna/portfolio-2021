@@ -1,5 +1,5 @@
 body {
-  background-color: #cde3fa;
+  background-color: #D3E1E8;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -25,6 +25,10 @@ display:none;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+}
+
+.smallerfont {
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
